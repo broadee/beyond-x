@@ -1,0 +1,126 @@
+{
+  "default_domain": "ai-tech",
+  "style": "style_a_toss_14f",
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "aspect_ratio": "4:5",
+    "slide_count": 6
+  },
+  "osmu_pipeline": {
+    "stage_1": "card_news (4:5 1080x1350, 6 slides, Toss x 14F style)",
+    "stage_2": "shorts_reels (9:16 1080x1920, 35-45s 6-scene script & keyframes)",
+    "stage_3": "deep_blog (2500-char SEO long-form article with embedded card visuals & primary sources)"
+  },
+  "domains": {
+    "ai-tech": {
+      "id": "ai-tech",
+      "priority": 1,
+      "status": "active",
+      "name_ko": "AI · 테크 · 과학",
+      "tag_label": "AI · TECH",
+      "description": "AI 신기술, 빅테크 이슈, 보안, 최신 과학/공학 뉴스",
+      "tier1_sources": [
+        "OpenAI / Google DeepMind / Anthropic / Meta AI 공식 기술 블로그",
+        "arXiv.org 논문, Nature, Science, IEEE Spectrum",
+        "KISA, NIST, Reuters Tech, Bloomberg Technology"
+      ],
+      "theme": {
+        "dark_bg": "#090A0F",
+        "light_bg": "#F4F4F6",
+        "accent": "#D4FF00",
+        "accent_on_light": "#090A0F",
+        "dark_text": "#FFFFFF",
+        "dark_sub": "#A1A1AA",
+        "light_text": "#090A0F",
+        "light_sub": "#52525B"
+      }
+    },
+    "economy": {
+      "id": "economy",
+      "priority": 2,
+      "status": "saved_ready",
+      "name_ko": "경제 · 금융 · 부동산",
+      "tag_label": "ECONOMY",
+      "description": "금리, 물가, 환율, 부동산, 투자 및 금융 정책 뉴스",
+      "tier1_sources": [
+        "한국은행(BOK), 기획재정부, 금융위원회, 통계청(KOSIS)",
+        "미 연준(Fed), IMF, Reuters, Bloomberg"
+      ],
+      "theme": {
+        "dark_bg": "#080D1A",
+        "light_bg": "#F4F6F9",
+        "accent": "#00F0FF",
+        "accent_on_light": "#080D1A",
+        "dark_text": "#FFFFFF",
+        "dark_sub": "#94A3B8",
+        "light_text": "#080D1A",
+        "light_sub": "#475569"
+      }
+    },
+    "health": {
+      "id": "health",
+      "priority": 3,
+      "status": "saved_ready",
+      "name_ko": "건강 · 의학 · 식품안전",
+      "tag_label": "HEALTH",
+      "description": "의학 연구, 건강 가이드, 신약/임상, 식약처·WHO 공식 발표",
+      "tier1_sources": [
+        "질병관리청(KDCA), 식품의약품안전처(MFDS), WHO, 미국 FDA",
+        "PubMed, NEJM, The Lancet, JAMA"
+      ],
+      "theme": {
+        "dark_bg": "#071410",
+        "light_bg": "#F3F7F5",
+        "accent": "#00FF88",
+        "accent_on_light": "#071410",
+        "dark_text": "#FFFFFF",
+        "dark_sub": "#A7F3D0",
+        "light_text": "#071410",
+        "light_sub": "#374151"
+      }
+    },
+    "society": {
+      "id": "society",
+      "priority": 4,
+      "status": "saved_ready",
+      "name_ko": "사회 · 정책 · 법률",
+      "tag_label": "SOCIETY",
+      "description": "새로 바뀌는 법률, 청년·복지·세금 정책, 주요 판결 및 사회 이슈",
+      "tier1_sources": [
+        "대한민국 정책브리핑, 국회 의안정보시스템, 법제처, 대법원"
+      ],
+      "theme": {
+        "dark_bg": "#120912",
+        "light_bg": "#F7F4F6",
+        "accent": "#FF3366",
+        "accent_on_light": "#FF3366",
+        "dark_text": "#FFFFFF",
+        "dark_sub": "#D4D4D8",
+        "light_text": "#120912",
+        "light_sub": "#52525B"
+      }
+    },
+    "global": {
+      "id": "global",
+      "priority": 5,
+      "status": "saved_ready",
+      "name_ko": "글로벌 · 기후 · 에너지",
+      "tag_label": "GLOBAL",
+      "description": "국제 정세, 글로벌 공급망, 기후변화 및 에너지 전환 뉴스",
+      "tier1_sources": [
+        "Reuters, AP, AFP, 연합뉴스, IEA, UN 공식 보고서"
+      ],
+      "theme": {
+        "dark_bg": "#0C0F17",
+        "light_bg": "#F5F5F2",
+        "accent": "#FFB800",
+        "accent_on_light": "#0C0F17",
+        "dark_text": "#FFFFFF",
+        "dark_sub": "#9CA3AF",
+        "light_text": "#0C0F17",
+        "light_sub": "#4B5563"
+      }
+    }
+  }
+}
