@@ -1,6 +1,10 @@
 # 생성된 카드뉴스 및 브랜딩 결과물 폴더 제외
 output/
 
+# 환경변수 및 비밀키(Discord Webhook URL 등) 제외
+.env
+.env.*
+
 # Python 캐시 및 임시 파일 제외
 __pycache__/
 *.py[cod]
